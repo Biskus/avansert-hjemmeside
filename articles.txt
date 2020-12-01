@@ -1,0 +1,4 @@
+dette er en overskrift;teksten begynner her
+overskrift 2;en morgenaften blabla
+produkt 7;rabattmaskinen
+nyhet 8;nå 100% rabatt på alle varer

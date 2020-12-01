@@ -1,0 +1,13 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ title }} - Microblog</title>
+    </head>
+    <body>
+        <h1>Hello!</h1>
+        {% for article in articles %}
+            <h3>{{article.0}}</h3>
+            <p>{{article.1}}</p>
+        {% endfor %}
+    </body>
+</html>

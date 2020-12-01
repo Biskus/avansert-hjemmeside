@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	  
+	  <div class="jumbotron">
+	  
+		<div class="col-xs-6 col-xs-offset-4">
+		<h1>Kundeportal</h1>
+			
+			
+			</div>
+		</div>
+	  <div class="row">
+		<div class="col-xs-6 col-xs-offset-4">
+		
+		<form class="form-signin">
+		
+			<h2 class="form-signin-heading">Log in</h2>
+			
+			<label for="inputEmail" class="sr-only">Epost</label>
+			<input type="email" id="inputEmail" class="form-control" placeholder="Epost" required="" autofocus="">
+			<label for="inputPassword" class="sr-only">Passord</label>
+			<input type="password" id="inputPassword" class="form-control" placeholder="Passord" required="">
+			<div class="checkbox">
+			  <label>
+				<input type="checkbox" value="remember-me"> Remember me
+			  </label>
+			</div>
+			<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+	    </form>
+		</div>
+	  </div>
+	  
+{% endblock content %}
