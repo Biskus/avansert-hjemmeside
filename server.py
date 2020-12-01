@@ -12,11 +12,18 @@ def services():
     return render_template('services.html',
     current_site = 'services')
 
+@app.route('/nyheter')
+def news():
+    return render_template('news.html',
+    current_site = 'news')
+
 @app.route('/login')
 def login():
     return render_template('login.html',
     current_site = 'login')
 
+
+"""
 def get_articles():
     articles = []
     with open('articles.txt') as file:
@@ -24,9 +31,6 @@ def get_articles():
             headline, text = line.split(';')
             articles.append((headline,text))
     return articles
-
-
-
 @app.route('/articles')
 def articles():
     articles = get_articles()
@@ -34,7 +38,7 @@ def articles():
     articles=articles)
 
     return articles
-    
+"""
 
 if __name__ == '__main__':
     app.run()
